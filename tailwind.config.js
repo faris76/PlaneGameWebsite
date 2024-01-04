@@ -4,10 +4,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        base: "#2b2e4a", //60%
-        primary: "#903749", // 30%
-        secondary: "#e84545", // 10%
-        fontColor: "#ffffff", //font color
+        base: " #1D2B53", //60%
+        primary: " #FF004D", // 30%
+        secondary: "#FAEF5D", // 10%
+        hover: "#7E2553",
+        fontColor: "#FFF", //font color
       },
     },
   },
