@@ -9,7 +9,9 @@ body {
 }
 
 .curve {
-  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
-  z-index: 0;
-  overflow: hidden;
+  clip-path: polygon(0 0, 100% 0, 100% 87%, 0 100%);
+}
+
+.curve-both {
+  clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
 }

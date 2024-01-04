@@ -2,8 +2,8 @@ import React from "react";
 
 const DownlodeNow = () => {
   return (
-    <div className="text-fontColor curve h-[50vh] flex flex-col gap-16 items-center px-8 bg-green-200">
-      <div className="text-4xl uppercase">Available On</div>
+    <div className="text-fontColor curve-both h-[70vh] flex flex-col gap-16 items-center px-8  mt-[-90px]">
+      <div className="text-4xl uppercase mt-28">Available On</div>
       <div className="gap-20 md:flex">
         <img
           className="md:h-32"
