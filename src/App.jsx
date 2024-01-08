@@ -9,13 +9,13 @@ import DownlodeNow from "./components/DownlodeNow";
 import About from "./components/About";
 const App = () => {
   return (
-    <div className="bg-base">
+    <div className="bg-background">
       <Navbar />
       <div>
         <img
           src={HeroImage}
           alt=""
-          className="w-[100vw] object-cover bg-no-repeat bg-center h-[90vh] md:h-[95vh] curve z-0"
+          className="w-[100vw] object-cover bg-no-repeat bg-center h-[90vh] curve z-0"
         />
       </div>
       <DownlodeNow />
