@@ -11,6 +11,12 @@ export default {
         background: "#FFF", // Background Color
         fontColor: "#FFF", //font color
       },
+      backgroundImage: {
+        watchTrailer: "url(./src/assets/watchTrailer.jpg)",
+        gallery1: "url(./src/assets/gallery1.jpg)",
+        gallery2: "url(./src/assets/gallery2.jpg)",
+        gallery3: "url(./src/assets/gallery3.jpg)",
+      },
     },
   },
   plugins: [],

@@ -1,12 +1,10 @@
 import React from "react";
 import Navbar from "./components/Navbar";
-import Leaderboard from "./components/Leaderboard";
-import Level from "./components/Level";
-import Enviroment from "./components/Enviroment";
-import Assets from "./components/Assets";
 import HeroImage from "./assets/HeroImage.jpeg";
 import DownlodeNow from "./components/DownlodeNow";
 import About from "./components/About";
+import Gallery from "./components/Gallery";
+import Leaderboard from "./components/Leaderboard";
 const App = () => {
   return (
     <div className="bg-background">
@@ -20,6 +18,8 @@ const App = () => {
       </div>
       <DownlodeNow />
       <About />
+      <Gallery />
+      <Leaderboard />
     </div>
   );
 };
