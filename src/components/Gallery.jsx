@@ -8,8 +8,8 @@ import Image3 from "../assets/gallery3.jpg";
 const Gallery = () => {
   return (
     <div className="bg-white curve-gallery">
-      <div className="max-w-screen-2xl mx-auto h-[130vh] md:h-[150vh] flex flex-col gap-16 md:gap-32 items-center justify-center mt-[-100px]">
-        <div className="relative w-[80%] h-72 bg-gallery1 bg-center bg-cover bg-no-repeat border-2 border-black shadow-lg mt-[-10px]">
+      <div className="max-w-screen-2xl mx-auto h-[135vh] md:h-[160vh] flex flex-col gap-16 md:gap-32 items-center justify-center mt-[-100px]">
+        <div className="relative w-[80%] h-72 bg-gallery1 bg-center bg-cover bg-no-repeat border-2 border-black shadow-lg mt-16">
           <img
             src={Icon1}
             w-full
