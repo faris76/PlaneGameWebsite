@@ -154,7 +154,7 @@ const Navbar = () => {
   );
 
   return (
-    <nav className="bg-base">
+    <nav className="bg-base sticky top-0 z-10">
       <div className="z-50 flex justify-between px-8 py-4 border-b md:px-20 lg:px-20 text-fontColor h-10vh lg:py-5 border-slate-800">
         <div className="flex items-center flex-1">
           <span className="text-3xl font-bold">Logo</span>
@@ -167,7 +167,7 @@ const Navbar = () => {
                   Home
                 </li>
               </Link>
-              <Link spy={true} smooth={true} to="About">
+              <Link spy={true} smooth={true} to="leaderboard">
                 <li className="transition border-b-2 cursor-pointer hover:text-secondary border-base hover:border-secondary">
                   Leaderboard
                 </li>
