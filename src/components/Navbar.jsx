@@ -128,22 +128,22 @@ const Navbar = () => {
               Home
             </li>
           </Link>
-          <Link spy={true} smooth={true} to="About">
+          <Link spy={true} smooth={true} to="leaderboard">
             <li className="py-4 m-4 border-b border-base hover:bg-base hover:text-white hover:rounded">
               Leaderboard
             </li>
           </Link>
-          <Link spy={true} smooth={true} to="Services">
+          <Link spy={true} smooth={true} to="level">
             <li className="py-4 m-4 border-b border-base hover:bg-base hover:text-white hover:rounded">
               levels
             </li>
           </Link>
-          <Link spy={true} smooth={true} to="Projects">
+          <Link spy={true} smooth={true} to="enviroment">
             <li className="py-4 m-4 border-b border-base hover:bg-base hover:text-white hover:rounded">
               Enviroments
             </li>
           </Link>
-          <Link spy={true} smooth={true} to="Contact">
+          <Link spy={true} smooth={true} to="assets">
             <li className="py-4 m-4 border-b border-base hover:bg-base hover:text-white hover:rounded">
               Assets
             </li>
@@ -154,7 +154,7 @@ const Navbar = () => {
   );
 
   return (
-    <nav className="bg-base sticky top-0 z-10">
+    <nav className="sticky top-0 z-10 bg-base">
       <div className="z-50 flex justify-between px-8 py-4 border-b md:px-20 lg:px-20 text-fontColor h-10vh lg:py-5 border-slate-800">
         <div className="flex items-center flex-1">
           <span className="text-3xl font-bold">Logo</span>
@@ -172,17 +172,17 @@ const Navbar = () => {
                   Leaderboard
                 </li>
               </Link>
-              <Link spy={true} smooth={true} to="Services">
+              <Link spy={true} smooth={true} to="level">
                 <li className="transition border-b-2 cursor-pointer hover:text-secondary border-base hover:border-secondary">
                   Levels
                 </li>
               </Link>
-              <Link spy={true} smooth={true} to="Projects">
+              <Link spy={true} smooth={true} to="enviroment">
                 <li className="transition border-b-2 cursor-pointer hover:text-secondary border-base hover:border-secondary">
                   Enviroment
                 </li>
               </Link>
-              <Link spy={true} smooth={true} to="Contact">
+              <Link spy={true} smooth={true} to="assets">
                 <li className="transition border-b-2 cursor-pointer hover:text-secondary border-base hover:border-secondary">
                   Assets
                 </li>

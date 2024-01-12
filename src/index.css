@@ -20,6 +20,10 @@ body {
   clip-path: polygon(0 6%, 100% 0, 100% 94%, 0 100%);
 }
 
+.curve-leaderboard {
+  clip-path: polygon(0 6%, 100% 0, 100% 94%, 0 100%);
+}
+
 @media (max-width: 600px) {
   .curve-gallery {
     clip-path: polygon(0 8%, 100% 0, 100% 92%, 0 100%);
